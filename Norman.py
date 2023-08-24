@@ -8,5 +8,7 @@ elif new_resteraunt == "no":
     answer = input("Alright lets rank the existing resteraunts")
     print ("ITS RANKING TIME")
 
- Do you like A) Dog Haus or B) Ramen Tatsunoya more? 
+input = Do you like A) Dog Haus or B) Ramen Tatsunoya more? 
+input Do you like A) Russell's or B) Dirt Dog more? 
+ Do you like A)
 
