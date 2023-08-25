@@ -8,7 +8,12 @@ elif new_resteraunt == "no":
     answer = input("Alright lets rank the existing resteraunts")
     print ("ITS RANKING TIME")
 
-input = Do you like A) Dog Haus or B) Ramen Tatsunoya more? 
-input Do you like A) Russell's or B) Dirt Dog more? 
- Do you like A)
+ Quiz = input ("Do you like A) Dog Haus or B) Ramen Tatsunoya more?")
+ if Quiz == "A": 
+
+ Do you like A) Russell's or B) Dirt Dog more? 
+ Do you like A) Jake's or Burgers or B) True Food Kitchen more? 
+
+
+
 
