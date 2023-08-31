@@ -4,15 +4,65 @@ resteraunts = ["Dog Haus", " Ramen Tatsunoya","Russell's", "Dirt Dog","Jake's Bu
 new_resteraunt= (input ( "would you like to add to the list yes for no?"))
 if new_resteraunt == "yes":
     answer = input("What resteraunt would you like to add to the list?")
-elif new_resteraunt == "no":
-    answer = input("Alright lets rank the existing resteraunts")
-    print ("ITS RANKING TIME")
+    resteraunts.append(answer)
 
- Quiz = input ("Do you like A) Dog Haus or B) Ramen Tatsunoya more?")
- if Quiz == "A": 
+print ("Alright lets rank the existing resteraunts")
+print ("ITS RANKING TIME")
 
- Do you like A) Russell's or B) Dirt Dog more? 
- Do you like A) Jake's or Burgers or B) True Food Kitchen more? 
+top = resteraunts[0]
+for res in resteraunts:
+    str = "do you like" + top + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top =  res
+resteraunts.remove(top)
+resteraunts.insert (0, top)
+
+
+top2 = resteraunts[1]
+for res in resteraunts[1:]:
+    str = "do you like" + top2 + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top2 =  res
+resteraunts.remove(top2)
+resteraunts.insert (1, top2)
+
+top3 = resteraunts[2]
+for res in resteraunts[2:]:
+    str = "do you like" + top3 + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top3 =  res
+resteraunts.remove(top3)
+resteraunts.insert (2, top3)
+
+top4 = resteraunts[3]
+for res in resteraunts[3:]:
+    str = "do you like" + top4 + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top4 =  res
+resteraunts.remove(top4)
+resteraunts.insert (3, top4)
+
+top5 = resteraunts[4]
+for res in resteraunts[4:]:
+    str = "do you like" + top5 + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top5 =  res
+resteraunts.remove(top5)
+resteraunts.insert (4, top5)
+
+top6 = resteraunts[5]
+for res in resteraunts[5:]:
+    str = "do you like" + top6 + "or" +  res + "a/b"
+    rank = input(str)
+    if rank == "b":
+        top6 =  res
+resteraunts.remove(top6)
+resteraunts.insert (5, top6)
 
 
 
